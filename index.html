@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Мои социальные сети</title>
+<style>
+  body {
+    background-image: url('https://i.pinimg.com/originals/9a/fb/f1/9afbf1b36b2b111b4dad6fd66eb5c76a.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Занимать 50% ширины экрана */
+  }
+  .card {
+    background-color: #191919; /* Серый цвет */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1; /* Равномерное распределение по ширине */
+    margin: 10px; /* Пространство между карточками */
+  }
+  .card img {
+    width: 100%;
+    height: 200px; /* Высота изображения */
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .icon {
+    font-size: 24px;
+    margin-top: 10px; /* Пространство между иконкой и названием */
+  }
+</style>
+</head>
+<body>
+  <div class="card-container">
+    <div class="card">
+      <img src="https://steamuserimages-a.akamaihd.net/ugc/2056505632875529701/2DA9239AFC7588595D7D6B15FB09756759E40C2A/?imw=512&imh=502&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="Telegram">
+      <h3>Telegram</h3>
+      <a href="https://t.me/mrpivo2007" class="icon"><img src="https://smacont.ru/media/Telegram-Logo.png" alt="Telegram Icon"></a>
+    </div>
+    
+    <div class="card">
+      <img src="https://avatars.mds.yandex.net/i?id=9f17eb1899a372ad7e092b968099f71d2e4619bd-10125837-images-thumbs&n=13" alt="Discord">
+      <h3>Discord</h3>
+      <a href="https://discordapp.com/users/1083722238701871184/" class="icon"><img src="https://papik.pro/grafic/uploads/posts/2023-04/1681590863_papik-pro-p-starii-logotip-diskorda-vektor-18.png" alt="Discord Icon"></a>
+    </div>
+    
+    <div class="card">
+      <img src="https://applook.ru/uploads/fotos/foto_18025.jpg" alt="YouTube">
+      <h3>YouTube</h3>
+      <a href="https://youtube.com/@h4terevenge" class="icon"><img src="https://resize.yandex.net/imgs_touch?key=7a5b1d2a8e2dcaf8d03917c6a64548a5&url=https%3A%2F%2Fr13-project.ru%2Fwp-content%2Fuploads%2F2020%2F09%2Fs1200-1024x724.png&width=1020&height=721&typemap=png%3Apng%3B*%3Ajpg&quality=60&use-cache-headers=yes&crop=no&enlarge=no" alt="YouTube Icon"></a>
+    </div>
+  </div>
+</body>
+</html>
